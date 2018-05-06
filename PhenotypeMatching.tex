@@ -1,0 +1,102 @@
+% This is "sig-alternate.tex" V2.0 May 2012
+% This file should be compiled with V2.5 of "sig-alternate.cls" May 2012
+%
+% This example file demonstrates the use of the 'sig-alternate.cls'
+% V2.5 LaTeX2e document class file. It is for those submitting
+% articles to ACM Conference Proceedings WHO DO NOT WISH TO
+% STRICTLY ADHERE TO THE SIGS (PUBS-BOARD-ENDORSED) STYLE.
+
+\documentclass{sig-alternate}
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage[backend=bibtex,style=numeric,minbibnames=3,maxbibnames=3,sorting=none]{biblatex}
+\addbibresource{Alzheimer.bib}
+
+
+\newfont{\mycrnotice}{ptmr8t at 10pt}
+\newfont{\myconfname}{ptmri8t at 10pt}
+\let\crnotice\mycrnotice%
+\let\confname\myconfname%
+
+\permission{Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights for components of this work owned by others than ACM must be honored. Abstracting with credit is permitted. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee. Request permissions from permissions@acm.org.}
+\conferenceinfo{}{}
+\copyrightetc{}
+\crdata{}
+
+\clubpenalty=10000
+\widowpenalty = 10000
+
+\begin{document}
+
+\title{Phenotype Matching}
+\author{Brian Marks, Jeremy Speth, Dalton Navalta \\\\ University of Nevada, Reno}
+\date{}
+
+\maketitle
+\begin{abstract}
+ 
+\end{abstract}
+
+% A category with the (minimum) three required fields
+%\category{H.4}{Information Systems Applications}{Miscellaneous}
+%A category including the fourth, optional field follows...
+%\category{D.2.8}{Software Engineering}{Metrics}[complexity measures, performance measures]
+\category{}{}{}
+
+
+\terms{}
+
+\keywords{}
+
+\section{}
+
+
+\section{}
+
+
+\subsection{}
+
+
+%\begin{figure}
+	
+%	\centering 
+%		\includegraphics[width=\columnwidth]{volcano.png}
+%	\caption {stuff}
+%\label{fig:volcano}
+
+%\end{figure}
+
+
+
+
+%\begin{table*}[htbp!]
+%\centering
+%\scriptsize
+%\caption{Description of the 5 Affymetrix gene expression datasets used for the training set. %All of the data were downloaded from Gene Expression Omnibus.
+%}
+%\begin{tabular}{lrrlll}
+%    \toprule
+%    Accession ID&Control&Disease&Tissue\\
+%    \toprule
+%    GSE4757&10&10&Entorhinal cortex\\
+%    GSE5281&74&87&Entorhinal cortex, medial temporal gyrus\\
+%    &&&posterior cingulate, superior frontal gyrus,\\
+%    &&&hippocampus, and primary visual cortex\\
+%    GSE16759&4&4&Parietal lobe\\
+%    GSE18309&3&3&Peripheral blood mononuclear cell\\
+%   GSE48350&173&80&Entorhinal cortex, post-central gyrus, \\
+%   &&&hippocampus, and superior frontal gyrus\\
+	
+%    \bottomrule
+%\end{tabular}
+%\label{tab:TrainingData}%
+%\end{table*}
+
+
+\end{document}
