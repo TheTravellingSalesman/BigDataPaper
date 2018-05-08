@@ -11,6 +11,7 @@
 ## Jeremy
 ### Motivation/Significance/Challenge
 ### Implementation
+### Discussion
 
 ## Unclaimed
 ### Abstract
